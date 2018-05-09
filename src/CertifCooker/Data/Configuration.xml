@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+	<!-- TO AUTOMATICALLY FILL THE FORM -->
+	<AutoFill>
+		<Fullname></Fullname>
+		<Birthday></Birthday>
+		<Activity></Activity>
+		<Sex>M</Sex>
+	</AutoFill>
+	<!-- DO NOT EDIT THIS SECTION -->
+	<Certificates>
+		<Certificate
+			Name="Certificate-1.jpg"
+			FontFamilyName="Helvetica Regular"
+			FontSizeEm="32"
+			RotateAngle="1.30">
+			<DateText
+				CoordX="140"
+				CoordY="760"
+				Width="1540"
+				Height="480">
+				<Value><![CDATA[Paris, le {0}]]></Value>
+			</DateText>
+			<ContentText
+				CoordX="140"
+				CoordY="1000"
+				Width="1540"
+				Height="480">
+				<Value><![CDATA[Je soussigné, Dr <Firstname> <Lastname> docteur en médecine, certifie que {0}, né{1} le {2}, ne présente pas à ce jour de contre-indication, cliniquement apparente, à la pratique {3}.]]></Value>
+			</ContentText>
+		</Certificate>
+		<Certificate
+			Name="Certificate-2.jpg"
+			FontFamilyName="Helvetica Regular"
+			FontSizeEm="32"
+			RotateAngle="1.35">
+			<DateText
+				CoordX="140"
+				CoordY="760"
+				Width="1540"
+				Height="480">
+				<Value><![CDATA[Paris, le {0}]]></Value>
+			</DateText>
+			<ContentText
+				CoordX="140"
+				CoordY="1000"
+				Width="1540"
+				Height="480">
+				<Value><![CDATA[Je soussigné, Dr <Firstname> <Lastname> docteur en médecine, certifie que {0}, né{1} le {2}, ne présente pas à ce jour de contre-indication, cliniquement apparente, à la pratique {3}.]]></Value>
+			</ContentText>
+		</Certificate>
+		<Certificate
+			Name="Certificate-3.jpg"
+			FontFamilyName="Helvetica Regular"
+			FontSizeEm="32"
+			RotateAngle="1.40">
+			<DateText
+				CoordX="140"
+				CoordY="760"
+				Width="1540"
+				Height="480">
+				<Value><![CDATA[Paris, le {0}]]></Value>
+			</DateText>
+			<ContentText
+				CoordX="140"
+				CoordY="1000"
+				Width="1540"
+				Height="480">
+				<Value><![CDATA[Je soussigné, Dr <Firstname> <Lastname> docteur en médecine, certifie que {0}, né{1} le {2}, ne présente pas à ce jour de contre-indication, cliniquement apparente, à la pratique {3}.]]></Value>
+			</ContentText>
+		</Certificate>
+		<Certificate
+			Name="Certificate-4.jpg"
+			FontFamilyName="Helvetica Regular"
+			FontSizeEm="32"
+			RotateAngle="1.45">
+			<DateText
+				CoordX="140"
+				CoordY="760"
+				Width="1540"
+				Height="480">
+				<Value><![CDATA[Paris, le {0}]]></Value>
+			</DateText>
+			<ContentText
+				CoordX="140"
+				CoordY="1000"
+				Width="1540"
+				Height="480">
+				<Value><![CDATA[Je soussigné, Dr <Firstname> <Lastname> docteur en médecine, certifie que {0}, né{1} le {2}, ne présente pas à ce jour de contre-indication, cliniquement apparente, à la pratique {3}.]]></Value>
+			</ContentText>
+		</Certificate>
+	</Certificates>
+</Configuration>

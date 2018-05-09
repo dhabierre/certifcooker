@@ -1,0 +1,1 @@
+xsd Configuration.xsd /classes /namespace:CertifCooker

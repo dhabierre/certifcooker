@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Configuration">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="AutoFill">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Fullname" type="xs:string" />
+							<xs:element name="Birthday" type="xs:string" />
+							<xs:element name="Activity" type="xs:string" />
+							<xs:element name="Sex" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Certificates">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element maxOccurs="unbounded" name="Certificate">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DateText">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Value" type="xs:string" />
+												</xs:sequence>
+												<xs:attribute name="CoordX" type="xs:int" use="required" />
+												<xs:attribute name="CoordY" type="xs:int" use="required" />
+												<xs:attribute name="Width" type="xs:int" use="required" />
+												<xs:attribute name="Height" type="xs:int" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ContentText">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Value" type="xs:string" />
+												</xs:sequence>
+												<xs:attribute name="CoordX" type="xs:unsignedByte" use="required" />
+												<xs:attribute name="CoordY" type="xs:int" use="required" />
+												<xs:attribute name="Width" type="xs:int" use="required" />
+												<xs:attribute name="Height" type="xs:int" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="Name" type="xs:string" use="required" />
+									<xs:attribute name="FontFamilyName" type="xs:string" use="required" />
+									<xs:attribute name="FontSizeEm" type="xs:unsignedByte" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
